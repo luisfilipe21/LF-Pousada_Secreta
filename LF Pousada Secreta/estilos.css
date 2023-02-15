@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ed5a0e;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.titulo-logo {
+    margin: 0 10px;
+}
+
+main{
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.limita-area {
+    max-width: 1024px;
+}
+
+img {
+    width: 350px;
+}
+
+span .logo-destaque{
+    font-weight: 700;
+}
+
+img:first-child{
+    width: 100%;
+}
+
+h2{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px 0;
+}
+
+p:last-child{
+    display: inline;
+    background-color: #ed5a0e;
+    padding: 10px 5px;
+}
+
+
+.mais-informacoes{
+    display:block;
+    margin: 25px 0;
+    font-weight: bold;
+    border-left: 2px solid #ed5a0e ;
+    padding-left: 10px;
+}
+
+.jogos-avaliados{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 10px;
+}
+
+figcaption, figure span {
+    margin: 12px 0;
+    padding: 12px 5px;
+    text-align: center;
+    background: #ed5a0e;
+    color: #ffffff;
+}

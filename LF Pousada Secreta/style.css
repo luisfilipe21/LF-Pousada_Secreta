@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+   
+}
+
+body{
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.topo{
+    background-color: wheat;
+    position:fixed;
+    display: flex;
+    padding: 15px;
+    font-size: 30px;
+    width: 100%;
+    max-height: 25px;
+    justify-content: space-evenly;
+}
+
+.topo p a{
+    text-decoration: none;
+    color: #3d3d3d
+}
+
+.topo span{
+    color: #6592c9;
+}
+
+.topo div a{
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 0 20px;
+}
+.conteudo{
+    background-image: url(img-fundo.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}  
+
+.fundo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.fundo .titulo{
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+    border: #0a9077b3 solid 1px;
+    padding: 65px;
+    text-align: center;
+    box-shadow: 0 0 400px #0a9077b3 inset;
+}
+
+.conteudo .sobre{
+    color: white
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.sobre p{
+    font-size: 24px;
+}
+
+.entrada {
+    text-align: center;
+    margin: 20px 0;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.entrada .titulo{
+    padding: 30px;
+    line-height: 60px;
+    box-sizing: border-box;
+}
+
+.titulo h2{
+    font-size: 32px;
+    font-weight: normal;
+
+}
+
+.entrada h3{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.entrada p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+/* Seção Bem-Vindo + os quartos */
+
+.entrada a{
+    text-decoration: none;
+    justify-content: space-between;
+    align-self: center;
+    color: black;
+    font-size: 22px;
+    box-sizing: border-box;
+}
+
+.secao-quartos{
+    width: 100%;
+    max-height: 400px;
+
+}
+
+.quartos{
+    border-bottom: 2px solid black;
+    display:inline-block;
+    box-sizing: border-box;
+    margin: 15px;
+    flex-wrap: nowrap;
+}
+.quartos img{
+    width: 300px;
+}
+
+.quartos a{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.caixa-info{
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.caixa-info img{
+    width: 20vw;
+    height: 20vh;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin: 0 10px;
+    align-items: center;
+}
+
+
+.caixa-info .info div{
+  flex: 1 1 auto;
+}
+
+.info img{
+    width: 100px;
+    height: 113px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.caixa-info .info div p{
+    padding: 30px 0;
+    width: 22vw;
+  
+}
+
+.rodape{
+    background-color: #49997d;
+    color:#fff;
+}
+
+.rodape h4{
+    font-size: 22px;
+}
+
+.entrada-rodape{
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.entrada-rodape a{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;;
+}
+
+.entrada-rodape img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.copyright{
+    text-align: center;
+    border-top: 1px solid #3b7863;
+    font-size: 24px;
+    color: #fff;
+    padding: 20px;
+    font-weight: 600;
+}
+
+/* página dos quartos */
+
+.imagem-fundo{
+    background-image: url('img-fundo.jpg');
+    width: 100vw;
+    height: 25vh;
+    min-height: 20vh;
+    max-height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.entrada .secao-quarto .quartos img{
+    width: 330px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.info-quartos h3{
+    font-size: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.entrada p{
+    padding: 20px 0;
+}
+
+.info-quartos ul{
+    display: flex;
+    align-items:center;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding: 30px 45px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin: 60px;
+}
+
+.info-quartos li{
+    font-size: 20px;
+}
